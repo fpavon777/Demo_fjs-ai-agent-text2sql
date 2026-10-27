@@ -1,0 +1,4 @@
+# PostgreSQL database of the demo: local socket, authentication by OS user
+# (same setup as the ARC_demo program).
+dbi.database.arc_demo.driver = "dbmpgs"
+dbi.database.arc_demo.source = "arc_demo"

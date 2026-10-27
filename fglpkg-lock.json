@@ -1,0 +1,36 @@
+{
+  "lockfileVersion": 1,
+  "generatedAt": "2026-10-27T09:14:25Z",
+  "generoVersion": "6.00.02",
+  "root": {
+    "name": "fjs-ai-agent-text2sql-app",
+    "version": "0.1.0",
+    "declared": {
+      "dependencies": {
+        "fgl": {
+          "fjs-ai-agent-text2sql": "1.1.0"
+        }
+      },
+      "devDependencies": {},
+      "optionalDependencies": {}
+    }
+  },
+  "packages": [],
+  "jars": [],
+  "webcomponents": [
+    {
+      "name": "fjs-ai-agent-text2sql",
+      "version": "1.1.0",
+      "downloadUrl": "https://service.generointelligence.ai/registry/packages/fjs-ai-agent-text2sql/versions/1.1.0/artifacts/webcomponent",
+      "checksum": "855d381333754420f91c06667deb25786f1da70e2c03792e086be096989cd31b",
+      "requiredBy": [
+        "<root>"
+      ],
+      "size": 243157,
+      "uploadedAt": "2026-10-05T14:14:33.765Z",
+      "uploader": "partner:a69745237238d6e6977664fb536b37e3",
+      "signature": "C6bMgmsNFz+p1Tq3v8L21jCS5a2v441RpLfJvqd1HhBGkXtBctNO3gJTI/GNz7xYPLdUyJvRQaiFDvGmQcd/CA==",
+      "signatureKeyid": "prod-key-1"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+-- One WEBCOMPONENT field hosting the fjs-ai-agent-text2sql widget.
+-- The cell is tagged once; the continuation rows stay empty so a single widget
+-- spans the grid (repeating the tag would create a Matrix of widgets).
+
+LAYOUT (TEXT = "Text2SQL demo - AI Data Agent", MINWIDTH = 100, MINHEIGHT = 30)
+GRID
+{
+[wc                                                                            ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+[                                                                              ]
+}
+END
+END
+
+ATTRIBUTES
+WEBCOMPONENT wc = FORMONLY.agent_data,
+    COMPONENTTYPE = "fjs-ai-agent-text2sql",
+    PROPERTIES = (
+        theme       = "auto",
+        title       = "Text2SQL demo - Data Agent",
+        subtitle    = "Ask about customers and delivery notes",
+        showtooldetails = "true",
+        suggestions = (
+            "How many delivery notes are there in each state?",
+            "Top 10 customers by total delivery note amount",
+            "Monthly delivery note amount as a line chart",
+            "Pie chart of customers by country",
+            "Which customers have no delivery notes?",
+            "Average delivery note amount per customer type"
+        )
+    ),
+    SIZEPOLICY = FIXED,
+    SCROLLBARS = NONE,
+    STRETCH = BOTH;
+END

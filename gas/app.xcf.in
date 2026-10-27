@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<APPLICATION xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Parent="defaultwa"
+             xsi:noNamespaceSchemaLocation="http://www.4js.com/ns/gas/2.50/cfextwa.xsd">
+  <EXECUTION>
+    <ENVIRONMENT_VARIABLE Id="FGLPROFILE">@ROOT@/fglprofile</ENVIRONMENT_VARIABLE>
+    <ENVIRONMENT_VARIABLE Id="FGLLDPATH">@ROOT@</ENVIRONMENT_VARIABLE>
+    <ENVIRONMENT_VARIABLE Id="OPENAI_API_KEY">@KEY@</ENVIRONMENT_VARIABLE>
+    <PATH>@ROOT@</PATH>
+    <MODULE>arc_text2sql.42m</MODULE>
+    <WEB_COMPONENT_DIRECTORY>$(res.fgldir)/webcomponents;@WCDIR@</WEB_COMPONENT_DIRECTORY>
+  </EXECUTION>
+  <UA_OUTPUT>
+    <PROXY>$(res.uaproxy.cmd)</PROXY>
+    <PUBLIC_IMAGEPATH>$(res.public.resources)</PUBLIC_IMAGEPATH>
+  </UA_OUTPUT>
+</APPLICATION>

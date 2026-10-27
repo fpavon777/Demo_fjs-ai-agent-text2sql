@@ -1,0 +1,11 @@
+# Secrets
+.env
+.env.local
+
+# Compiled Genero files
+*.42m
+*.42f
+*.42x
+
+# Installed packages (restore with: fglpkg install)
+.fglpkg/
